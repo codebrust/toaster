@@ -9,8 +9,8 @@ plugins {
 ext {
     mGroupId = 'com.codebrust'
     mArtifactId = 'toaster'
-    mVersionCode = 1
-    mVersionName = '0.0.1'
+    mVersionCode = 2
+    mVersionName = '0.0.2'
 
     mLibraryName = 'Toaster'
     mLibraryDescription = 'Toaster Library'
