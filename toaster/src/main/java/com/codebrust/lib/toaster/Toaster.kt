@@ -6,6 +6,6 @@ import com.codebrust.toaster.BuildConfig
 
 object Toaster {
     fun toast(context: Context?) {
-        Toast.makeText(context, BuildConfig.FLAVOR, Toast.LENGTH_SHORT).show()
+        Toast.makeText(context, BuildConfig.MESSAGE, Toast.LENGTH_SHORT).show()
     }
 }

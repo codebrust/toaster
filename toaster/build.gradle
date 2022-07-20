@@ -9,8 +9,8 @@ plugins {
 ext {
     mGroupId = 'com.codebrust'
     mArtifactId = 'toaster'
-    mVersionCode = 2
-    mVersionName = '0.0.2'
+    mVersionCode = 3
+    mVersionName = '0.0.3'
 
     mLibraryName = 'Toaster'
     mLibraryDescription = 'Toaster Library'
@@ -60,40 +60,47 @@ android {
     productFlavors {
         nt {
             dimension "version"
+            buildConfigField "String", "MESSAGE", "\"Hello NT\""
 //            applicationId "com.codebrust.toaster.nt"
         }
 
         net {
             dimension "version"
+            buildConfigField "String", "MESSAGE", "\"Hello NET\""
 //            applicationId "com.codebrust.toaster.net"
 
         }
 
         zen {
             dimension "version"
+            buildConfigField "String", "MESSAGE", "\"Hello Zen\""
 //            applicationId "com.codebrust.toaster.zen"
         }
 
         tv {
             dimension "version"
+            buildConfigField "String", "MESSAGE", "\"Hello TV\""
 //            applicationId "com.codebrust.toaster.tv"
 
         }
 
         show {
             dimension "version"
+            buildConfigField "String", "MESSAGE", "\"Hello SHOW\""
 //            applicationId "com.codebrust.toaster.show"
 
         }
 
         mov {
             dimension "version"
+            buildConfigField "String", "MESSAGE", "\"Hello MOV\""
 //            applicationId "com.codebrust.toaster.mov"
 
         }
 
         mtv {
             dimension "version"
+            buildConfigField "String", "MESSAGE", "\"Hello MTV\""
 //            applicationId "com.codebrust.toaster.mtv"
         }
     }
